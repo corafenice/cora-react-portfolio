@@ -58,3 +58,7 @@ color: white;
   padding: 8px;
 
 }
+
+.project-grid {
+  display: flex;
+}
