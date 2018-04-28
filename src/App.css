@@ -30,7 +30,7 @@ background: linear-gradient(to right, #7BC6CC, #BE93C5); /* W3C, IE 10+/ Edge, F
   border-radius:  10px;
 }
 
-.banner-text h1 {
+.banner-text h1, h2 {
   font-size: 66px;
 color: white;
 }

@@ -10,7 +10,8 @@ class Landing extends Component {
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWMRSfT_Bv_we9gCRBTgSBUthZi9V9jZ3uib8KE7cg20fPwrP0HQ" alt='profile pic' className='profile-pic'
           />
           <div className="banner-text">
-            <h1>Full Stack Web Developer</h1>
+            <h1> Cora </h1>
+            <h2>Full Stack Web Developer</h2>
 
             <hr/>
 
