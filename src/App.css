@@ -17,8 +17,9 @@ background: linear-gradient(to right, #7BC6CC, #BE93C5); /* W3C, IE 10+/ Edge, F
   }
 
 .profile-pic {
-  height: 250px;
+  height: 150px;
   padding-top: 5em;
+
 }
 
 .banner-text {
