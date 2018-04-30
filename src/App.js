@@ -4,6 +4,7 @@ import Main from './components/main'
 import './App.css';
 import { Link } from 'react-router-dom';
 
+
 class App extends Component {
   render() {
     return (
@@ -17,7 +18,7 @@ class App extends Component {
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title={<Link style={{textDecoration:'none', color: 'gray'}} to="/">My Portfolio</Link>} scroll>
+        <Drawer title={<Link style={{textDecoration:'none', color: 'black'}} to="/">My Portfolio</Link>} scroll>
             <Navigation>
               <Link to="/aboutme">About Me</Link>
               <Link to="/resume">Resume</Link>

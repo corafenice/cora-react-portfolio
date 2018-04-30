@@ -7,13 +7,12 @@ class Contact extends Component {
     return(
       <div className='contact-body'>
         <Grid className='contact-grid'>
-          <Cell col={6}>
+          <Cell col={4}>
             <h2>Cora Quezada</h2>
-            <img src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png" alt='avatar'
+            <img src="images/git.jpeg" alt='avatar'
             style={{height:'250px'}}
           />
           <p style={{ width:'75%', margin:'auto', paddingTop: '1em'}}>
-            my text would go here about me maybe my bio. need to be good.
 
           </p>
         </Cell>
@@ -32,20 +31,13 @@ class Contact extends Component {
             <ListItem>
               <ListItemContent style={{fontSize:'20px', fontFamily:'Anton'}}>
                  <i className='fa fa-envelope' aria-hidden='true'/>
-                 corafenice1012@gmail.com
+                 corafenice1013@gmail.com
               </ListItemContent>
             </ListItem>
 
             <ListItem>
               <ListItemContent style={{fontSize:'20px', fontFamily:'Anton'}}>
-                 <i className='fa fa-skype' aria-hidden='true'/>
-                 get skype
-              </ListItemContent>
-            </ListItem>
-
-            <ListItem>
-              <ListItemContent style={{fontSize:'20px', fontFamily:'Anton'}}>
-                 <i className='fa fa-whatsapp' aria-hidden='true'/>
+                 <i className='fa fa-phone-square' aria-hidden='true'/>
                  (732)-925-3791
               </ListItemContent>
             </ListItem>

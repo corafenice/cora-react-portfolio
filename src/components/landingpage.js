@@ -4,10 +4,10 @@ import { Grid, Cell } from 'react-mdl';
 class Landing extends Component {
   render() {
     return(
-      <div style={{width: '100', margin: 'auto'}}>
+      <div style={{width: '100', margin: 'auto'}} className="landing-background">
         <Grid className="landing-grid">
           <Cell col={12}>
-            <img src="images/git.jpeg" alt='profile pic' className='profile-pic' style={{width:'200px'}}
+            <img src="" alt='' className='profile-pic' style={{width:'200px'}}
           />
           <div className="banner-text">
             <h1> Cora </h1>
