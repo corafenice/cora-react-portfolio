@@ -9,7 +9,7 @@ class Contact extends Component {
         <Grid className='contact-grid'>
           <Cell col={4}>
             <h2>Cora Quezada</h2>
-            <img src="images/git.jpeg" alt='avatar'
+            <img className='contact-pic' src="images/corawedding.jpg" alt='avatar'
             style={{height:'250px'}}
           />
           <p style={{ width:'75%', margin:'auto', paddingTop: '1em'}}>
