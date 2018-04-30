@@ -17,8 +17,9 @@ background: linear-gradient(to right, #7BC6CC, #BE93C5); /* W3C, IE 10+/ Edge, F
   }
 
 .profile-pic {
-  height: 150px;
-  padding-top: 5em;
+  padding-top: 7em;
+    width: 100px;
+    border-radius: 50%;
 
 }
 
@@ -62,6 +63,10 @@ background: linear-gradient(to right, #7BC6CC, #BE93C5); /* W3C, IE 10+/ Edge, F
 .project-grid {
   display: flex;
 }
+.project-grid i {
+font-size: 30px;
+padding-right: 5rem;
+}
 /* Contact Page CSS */
 
 .contact-body {
@@ -99,8 +104,6 @@ background: linear-gradient(to right, #7BC6CC, #BE93C5); /* W3C, IE 10+/ Edge, F
 .contact-list i {
 font-size: 66px;
 padding-right: 5rem;
-
-
 }
 /* Contact Page CSS */
 
@@ -108,10 +111,9 @@ padding-right: 5rem;
 
 .aboutme  {
   padding-top: 5em;
-
-
 }
-.aboutme h1 {
+.aboutme a {
+
 
 }
 

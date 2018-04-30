@@ -7,7 +7,7 @@ class Landing extends Component {
       <div style={{width: '100', margin: 'auto'}}>
         <Grid className="landing-grid">
           <Cell col={12}>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWMRSfT_Bv_we9gCRBTgSBUthZi9V9jZ3uib8KE7cg20fPwrP0HQ" alt='profile pic' className='profile-pic'
+            <img src="images/git.jpeg" alt='profile pic' className='profile-pic' style={{width:'200px'}}
           />
           <div className="banner-text">
             <h1> Cora </h1>

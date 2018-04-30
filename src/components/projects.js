@@ -17,8 +17,11 @@ class Project extends Component {
             What ever I want to describe project
           </CardText>
           <CardActions border>
-            <Button colored>GitHub</Button>
-            <Button colored>Demo</Button>
+
+            <Button>
+              <a href="https://github.com/corafenice/cora-react-portfolio"  target="_blank" rel="noopener noreferrer">
+                <i className="fa fa-github-square" aria-hidden="true" /></a>
+            </Button>
           </CardActions>
           <CardMenu style={{color: '#fff'}}>
             <IconButton name='share'/>
@@ -38,39 +41,62 @@ class Project extends Component {
           <IconButton name='share'/>
         </CardMenu>
       </Card>
-      {/*Project #3 */}
-    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-      <CardTitle style={{color: '#fff', height: '176px', background:'url() center /cover'}} >React Project #3</CardTitle>
-      <CardText>
-        What ever I want to describe project
-      </CardText>
-      <CardActions border>
-        <Button colored>GitHub</Button>
-        <Button colored>Demo</Button>
-      </CardActions>
-      <CardMenu style={{color: '#fff'}}>
-        <IconButton name='share'/>
-      </CardMenu>
-    </Card>
+
   </div>
       )
     }  else if(this.state.activeTab === 1) {
       return (
         <div className="project-grid">
-          {/*Project #1 */}
+          {/*Ruby Project #1 dash */}
         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background:'url() center /cover'}} >React Project #1</CardTitle>
+          <CardTitle style={{color: '#fff', height: '176px', background:'url() center /cover'}} >Ruby Project #1</CardTitle>
           <CardText>
             What ever I want to describe project
           </CardText>
           <CardActions border>
-            <Button colored>GitHub</Button>
-            <Button colored>Demo</Button>
+            <Button>
+              <a href="https://github.com/AnansiRafa/dash"  target="_blank" rel="noopener noreferrer">
+                <i className="fa fa-github-square" aria-hidden="true" /></a>
+            </Button>
           </CardActions>
           <CardMenu style={{color: '#fff'}}>
             <IconButton name='share'/>
           </CardMenu>
         </Card>
+          {/*Ruby Project #2 API/Book*/}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background:'url() center /cover'}} >Ruby Project #2</CardTitle>
+          <CardText>
+            Build an API, which helps to organize the workflow of a library. I can borrow a book, give it back, or to create a user, a book or an author. Administrators can – CRUD of books, authors, and users. Authentication with HTTP Tokens.
+          </CardText>
+          <CardActions border>
+            <Button>
+              <a href="https://github.com/corafenice/API-Book"  target="_blank" rel="noopener noreferrer">
+                <i className="fa fa-github-square" aria-hidden="true" /></a>
+            </Button>
+
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name='share'/>
+          </CardMenu>
+        </Card>
+        {/*Ruby Project #3 Photogur */}
+      <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+        <CardTitle style={{color: '#fff', height: '176px', background:'url() center /cover'}} >Ruby Project #3</CardTitle>
+        <CardText>
+          What ever I want to describe project
+        </CardText>
+        <CardActions border>
+          <Button>
+            <a href="https://github.com/corafenice/Photogur-CSD"  target="_blank" rel="noopener noreferrer">
+              <i className="fa fa-github-square" aria-hidden="true" /></a>
+          </Button>
+
+        </CardActions>
+        <CardMenu style={{color: '#fff'}}>
+          <IconButton name='share'/>
+        </CardMenu>
+      </Card>
   </div>
       )
     } else if(this.state.activeTab === 2) {
@@ -133,8 +159,8 @@ class Project extends Component {
       <div className="category-tabs">
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState( { activeTab: tabId})} ripple>
           <Tab>React</Tab>
-          <Tab>Javascript</Tab>
-          <Tab>Ruby Rails</Tab>
+          <Tab>Ruby</Tab>
+          <Tab>JavaScript</Tab>
           <Tab>??????</Tab>
         </Tabs>
 
