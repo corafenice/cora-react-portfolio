@@ -10,29 +10,6 @@ class Project extends Component {
     if (this.state.activeTab === 0){
       return(
         <div className="project-grid">
-          {/*Project #1 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background:'url(images/porfolioscreenshot.png) center /cover'}} >React Portfolio</CardTitle>
-            <CardText>
-              Created my personalized porfolio using React and React-MDL.
-            </CardText>
-            <CardActions border>
-
-              <Button>
-                <a href="https://github.com/corafenice/cora-react-portfolio"  target="_blank" rel="noopener noreferrer">
-                <i className="fa fa-github-square" aria-hidden="true" /></a>
-              </Button>
-            </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name='share'/>
-            </CardMenu>
-          </Card>
-
-        </div>
-      )
-    }  else if(this.state.activeTab === 1) {
-      return (
-        <div className="project-grid">
           {/*Ruby Project #1 dash */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background:'url(images/abc.jpeg) center /cover'}} >DASH</CardTitle>
@@ -88,6 +65,29 @@ class Project extends Component {
               <IconButton name='share'/>
             </CardMenu>
           </Card>
+        </div>
+      )
+    }  else if(this.state.activeTab === 1) {
+      return (
+        <div className="project-grid">
+          {/*Project #1 */}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background:'url(images/porfolioscreenshot.png) center /cover'}} >React Portfolio</CardTitle>
+            <CardText>
+              Created my personalized porfolio using React and React-MDL.
+            </CardText>
+            <CardActions border>
+
+              <Button>
+                <a href="https://github.com/corafenice/cora-react-portfolio"  target="_blank" rel="noopener noreferrer">
+                <i className="fa fa-github-square" aria-hidden="true" /></a>
+              </Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name='share'/>
+            </CardMenu>
+          </Card>
+
         </div>
       )
     } else if(this.state.activeTab === 2) {
