@@ -1,0 +1,23 @@
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9900;
+  background: black;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.Message-Wrapper {
+  z-index: 9901;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+
+.Message-Wrapper input {
+  display: block;
+  height: 1.5rem;
+  width: 10rem;
+}
