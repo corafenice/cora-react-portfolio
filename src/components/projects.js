@@ -62,7 +62,7 @@ class Project extends Component {
 
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
-              <IconButton name='share'/>
+              <IconButton classname='share'/>
             </CardMenu>
           </Card>
         </div>
@@ -123,24 +123,24 @@ class Project extends Component {
           </Card>
         </div>
       )
-    // } else if(this.state.activeTab === 3) {
-    //   return (
-        // <div className="project-grid">
-        //   {/*Project #1 */}
-        //   <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-        //     <CardTitle style={{color: '#fff', height: '176px', background:'url() center /cover'}} >React Project #1</CardTitle>
-        //     <CardText>
-        //       What ever I want to describe project
-        //     </CardText>
-        //     <CardActions border>
-        //       <Button colored>GitHub</Button>
-        //       <Button colored>Demo</Button>
-        //     </CardActions>
-        //     <CardMenu style={{color: '#fff'}}>
-        //       <IconButton name='share'/>
-        //     </CardMenu>
-        //   </Card>
-        // </div>
+      // } else if(this.state.activeTab === 3) {
+      //   return (
+      // <div className="project-grid">
+      //   {/*Project #1 */}
+      //   <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+      //     <CardTitle style={{color: '#fff', height: '176px', background:'url() center /cover'}} >React Project #1</CardTitle>
+      //     <CardText>
+      //       What ever I want to describe project
+      //     </CardText>
+      //     <CardActions border>
+      //       <Button colored>GitHub</Button>
+      //       <Button colored>Demo</Button>
+      //     </CardActions>
+      //     <CardMenu style={{color: '#fff'}}>
+      //       <IconButton name='share'/>
+      //     </CardMenu>
+      //   </Card>
+      // </div>
       // )
     }
   }
