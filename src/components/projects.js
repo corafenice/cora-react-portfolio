@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, CardMenu, Button, IconButton} from 'react-mdl';
-import {Link} from 'react-router-dom'
 
 class Project extends Component {
   constructor(props) {
@@ -13,9 +12,9 @@ class Project extends Component {
         <div className="project-grid">
           {/*Project #1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background:'url() center /cover'}} >React Project #1</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background:'url(images/porfolioscreenshot.png) center /cover'}} >React Portfolio</CardTitle>
             <CardText>
-              What ever I want to describe project
+              Created my personalized porfolio using React and React-MDL.
             </CardText>
             <CardActions border>
 
@@ -23,20 +22,6 @@ class Project extends Component {
                 <a href="https://github.com/corafenice/cora-react-portfolio"  target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-github-square" aria-hidden="true" /></a>
               </Button>
-            </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name='share'/>
-            </CardMenu>
-          </Card>
-          {/*Project #2 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background:'url() center /cover'}} >React Project #2</CardTitle>
-            <CardText>
-              What ever I want to describe project
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name='share'/>
@@ -55,7 +40,7 @@ class Project extends Component {
               DASH is a personalized student dashboard that allows parents and teachers to more effectively communicate.
               Some features include:
               Private Messaging-Individual qualitative student feedback as posted by teachers-Public feeds for every class a student.
-              <Link to="https://dashk12.herokuapp.com"  >DASH</Link>
+              <a href="https://dashk12.herokuapp.com"  >DASH</a>
 
             </CardText>
             <CardActions border>
@@ -138,25 +123,25 @@ class Project extends Component {
           </Card>
         </div>
       )
-    } else if(this.state.activeTab === 3) {
-      return (
-        <div className="project-grid">
-          {/*Project #1 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background:'url() center /cover'}} >React Project #1</CardTitle>
-            <CardText>
-              What ever I want to describe project
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>Demo</Button>
-            </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name='share'/>
-            </CardMenu>
-          </Card>
-        </div>
-      )
+    // } else if(this.state.activeTab === 3) {
+    //   return (
+        // <div className="project-grid">
+        //   {/*Project #1 */}
+        //   <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+        //     <CardTitle style={{color: '#fff', height: '176px', background:'url() center /cover'}} >React Project #1</CardTitle>
+        //     <CardText>
+        //       What ever I want to describe project
+        //     </CardText>
+        //     <CardActions border>
+        //       <Button colored>GitHub</Button>
+        //       <Button colored>Demo</Button>
+        //     </CardActions>
+        //     <CardMenu style={{color: '#fff'}}>
+        //       <IconButton name='share'/>
+        //     </CardMenu>
+        //   </Card>
+        // </div>
+      // )
     }
   }
 
@@ -167,7 +152,6 @@ class Project extends Component {
           <Tab>React</Tab>
           <Tab>Ruby</Tab>
           <Tab>JavaScript</Tab>
-          <Tab>??????</Tab>
         </Tabs>
 
 

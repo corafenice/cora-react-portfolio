@@ -135,4 +135,32 @@ background-size: cover;
 
 }
 
+.resume-page{
+  background-color: white;
+}
+.resume-grid-top div{
+  text-align: center;
+}
+.bio p {
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 20px;
+}
+.resume-top-pic {
+  background: black;
+  align-items: center;
+  display: inline-grid;
+}
+.skills {
+  background-color: blue;
+  display: flex;
+  display:contents;
+}
+
+.resume-grid-top{
+  align-items: center;
+
+}
+
+
 /* Resume Page CSS */
