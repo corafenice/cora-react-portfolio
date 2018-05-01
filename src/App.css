@@ -105,23 +105,17 @@ font-size: 50px;
 padding-right: 5rem;
 }
 .contact-pic {
-  height: auto;
-    width: 100%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    border-radius: 50%;
+
+    border-radius: 30%;
 }
 .mdl-grid {
 background: none;
  margin-right: -110px;
  align-items: right
-}z
+}
 /* Contact Page CSS */
 
 /* About Me Page CSS */
-
 .aboutme  {
   padding:2em;
 
@@ -131,5 +125,14 @@ background: none;
 background-size: 100%;
 background-size: cover;
 }
-
 /* About Me Page CSS */
+
+/* Resume Page CSS */
+.resume-grid-right{
+  background: #27221F;
+  color:white;
+  padding: 2em;
+
+}
+
+/* Resume Page CSS */

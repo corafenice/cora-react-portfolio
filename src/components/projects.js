@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, CardMenu, Button, IconButton} from 'react-mdl';
+import {Link} from 'react-router-dom'
 
 class Project extends Component {
   constructor(props) {
@@ -11,145 +12,150 @@ class Project extends Component {
       return(
         <div className="project-grid">
           {/*Project #1 */}
-        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background:'url() center /cover'}} >React Project #1</CardTitle>
-          <CardText>
-            What ever I want to describe project
-          </CardText>
-          <CardActions border>
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background:'url() center /cover'}} >React Project #1</CardTitle>
+            <CardText>
+              What ever I want to describe project
+            </CardText>
+            <CardActions border>
 
-            <Button>
-              <a href="https://github.com/corafenice/cora-react-portfolio"  target="_blank" rel="noopener noreferrer">
+              <Button>
+                <a href="https://github.com/corafenice/cora-react-portfolio"  target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-github-square" aria-hidden="true" /></a>
-            </Button>
-          </CardActions>
-          <CardMenu style={{color: '#fff'}}>
-            <IconButton name='share'/>
-          </CardMenu>
-        </Card>
-        {/*Project #2 */}
-      <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-        <CardTitle style={{color: '#fff', height: '176px', background:'url() center /cover'}} >React Project #2</CardTitle>
-        <CardText>
-          What ever I want to describe project
-        </CardText>
-        <CardActions border>
-          <Button colored>GitHub</Button>
-          <Button colored>Demo</Button>
-        </CardActions>
-        <CardMenu style={{color: '#fff'}}>
-          <IconButton name='share'/>
-        </CardMenu>
-      </Card>
+              </Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name='share'/>
+            </CardMenu>
+          </Card>
+          {/*Project #2 */}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background:'url() center /cover'}} >React Project #2</CardTitle>
+            <CardText>
+              What ever I want to describe project
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>Demo</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name='share'/>
+            </CardMenu>
+          </Card>
 
-  </div>
+        </div>
       )
     }  else if(this.state.activeTab === 1) {
       return (
         <div className="project-grid">
           {/*Ruby Project #1 dash */}
-        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background:'url() center /cover'}} >Ruby Project #1</CardTitle>
-          <CardText>
-            What ever I want to describe project
-          </CardText>
-          <CardActions border>
-            <Button>
-              <a href="https://github.com/AnansiRafa/dash"  target="_blank" rel="noopener noreferrer">
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background:'url(images/abc.jpeg) center /cover'}} >DASH</CardTitle>
+            <CardText>
+              DASH is a personalized student dashboard that allows parents and teachers to more effectively communicate.
+              Some features include:
+              Private Messaging-Individual qualitative student feedback as posted by teachers-Public feeds for every class a student.
+              <Link to="https://dashk12.herokuapp.com"  >DASH</Link>
+
+            </CardText>
+            <CardActions border>
+              <Button>
+                <a href="https://github.com/AnansiRafa/dash"  target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-github-square" aria-hidden="true" /></a>
-            </Button>
-          </CardActions>
-          <CardMenu style={{color: '#fff'}}>
-            <IconButton name='share'/>
-          </CardMenu>
-        </Card>
+              </Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name='share'/>
+            </CardMenu>
+          </Card>
           {/*Ruby Project #2 API/Book*/}
-        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background:'url() center /cover'}} >Ruby Project #2</CardTitle>
-          <CardText>
-            Build an API, which helps to organize the workflow of a library. I can borrow a book, give it back, or to create a user, a book or an author. Administrators can – CRUD of books, authors, and users. Authentication with HTTP Tokens.
-          </CardText>
-          <CardActions border>
-            <Button>
-              <a href="https://github.com/corafenice/API-Book"  target="_blank" rel="noopener noreferrer">
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background:'url(images/books.jpeg) center /cover'}} >API/Book</CardTitle>
+            <CardText>
+              Build an API, which helps to organize the workflow of a library. User can borrow a book, give it back, or to create a user, a book or an author. Administrators can –CRUD of books, authors, and users. Authentication with HTTP Tokens.
+            </CardText>
+            <CardActions border>
+              <Button>
+                <a href="https://github.com/corafenice/API-Book"  target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-github-square" aria-hidden="true" /></a>
-            </Button>
+              </Button>
 
-          </CardActions>
-          <CardMenu style={{color: '#fff'}}>
-            <IconButton name='share'/>
-          </CardMenu>
-        </Card>
-        {/*Ruby Project #3 Photogur */}
-      <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-        <CardTitle style={{color: '#fff', height: '176px', background:'url() center /cover'}} >Ruby Project #3</CardTitle>
-        <CardText>
-          What ever I want to describe project
-        </CardText>
-        <CardActions border>
-          <Button>
-            <a href="https://github.com/corafenice/Photogur-CSD"  target="_blank" rel="noopener noreferrer">
-              <i className="fa fa-github-square" aria-hidden="true" /></a>
-          </Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name='share'/>
+            </CardMenu>
+          </Card>
+          {/*Ruby Project #3 Photogur */}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background:'url(images/camera.jpeg) center /cover'}} >PetShow</CardTitle>
+            <CardText>
+              PetShow is a Webapp that allows a user to securely log in (used gem bcrypt) to upload pet photos into a database. These photo can be liked and commented by other users. Used Ruby on Rails to build and PostgreSQL for the database.
 
-        </CardActions>
-        <CardMenu style={{color: '#fff'}}>
-          <IconButton name='share'/>
-        </CardMenu>
-      </Card>
-  </div>
+            </CardText>
+            <CardActions border>
+              <Button>
+                <a href="https://github.com/corafenice/Photogur-CSD"  target="_blank" rel="noopener noreferrer">
+                <i className="fa fa-github-square" aria-hidden="true" /></a>
+              </Button>
+
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name='share'/>
+            </CardMenu>
+          </Card>
+        </div>
       )
     } else if(this.state.activeTab === 2) {
       return (
         <div className="project-grid">
           {/*Project #1 */}
-        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background:'url() center /cover'}} >React Project #1</CardTitle>
-          <CardText>
-            What ever I want to describe project
-          </CardText>
-          <CardActions border>
-            <Button colored>GitHub</Button>
-            <Button colored>Demo</Button>
-          </CardActions>
-          <CardMenu style={{color: '#fff'}}>
-            <IconButton name='share'/>
-          </CardMenu>
-        </Card>
-        {/*Project #2 */}
-      <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-        <CardTitle style={{color: '#fff', height: '176px', background:'url() center /cover'}} >React Project #2</CardTitle>
-        <CardText>
-          What ever I want to describe project
-        </CardText>
-        <CardActions border>
-          <Button colored>GitHub</Button>
-          <Button colored>Demo</Button>
-        </CardActions>
-        <CardMenu style={{color: '#fff'}}>
-          <IconButton name='share'/>
-        </CardMenu>
-      </Card>
-  </div>
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background:'url() center /cover'}} >React Project #1</CardTitle>
+            <CardText>
+              What ever I want to describe project
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>Demo</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name='share'/>
+            </CardMenu>
+          </Card>
+          {/*Project #2 */}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background:'url() center /cover'}} >React Project #2</CardTitle>
+            <CardText>
+              What ever I want to describe project
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>Demo</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name='share'/>
+            </CardMenu>
+          </Card>
+        </div>
       )
     } else if(this.state.activeTab === 3) {
       return (
         <div className="project-grid">
           {/*Project #1 */}
-        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background:'url() center /cover'}} >React Project #1</CardTitle>
-          <CardText>
-            What ever I want to describe project
-          </CardText>
-          <CardActions border>
-            <Button colored>GitHub</Button>
-            <Button colored>Demo</Button>
-          </CardActions>
-          <CardMenu style={{color: '#fff'}}>
-            <IconButton name='share'/>
-          </CardMenu>
-        </Card>
-  </div>
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background:'url() center /cover'}} >React Project #1</CardTitle>
+            <CardText>
+              What ever I want to describe project
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>Demo</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name='share'/>
+            </CardMenu>
+          </Card>
+        </div>
       )
     }
   }
@@ -165,11 +171,11 @@ class Project extends Component {
         </Tabs>
 
 
-          <Grid>
-            <Cell col={12}>
-              <div className="content">{this.toggleCategories()}</div>
-            </Cell>
-          </Grid>
+        <Grid>
+          <Cell col={12}>
+            <div className="content">{this.toggleCategories()}</div>
+          </Cell>
+        </Grid>
       </div>
     )
   }
