@@ -34,7 +34,7 @@ class Project extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background:'url(images/books.jpeg) center /cover'}} >API/Book</CardTitle>
             <CardText>
-              Build an API, which helps to organize the workflow of a library. User can borrow a book, give it back, or to create a user, a book or an author. Administrators can –CRUD of books, authors, and users. Authentication with HTTP Tokens.
+              Built an API, which helps to organize the workflow of a library. User can borrow a book, give it back, or to create a user, a book or an author. Administrators can –CRUD of books, authors, and users. Authentication with HTTP Tokens.
             </CardText>
             <CardActions border>
               <Button>

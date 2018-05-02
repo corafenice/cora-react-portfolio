@@ -13,9 +13,9 @@ class Landing extends Component {
             <h1> Cora </h1>
             <h2>Full Stack Web Developer</h2>
 
-            <hr/>
 
-            <p>HTML/CSS | Ruby | Ruby Rails | JavaScript | React.js</p>
+
+            <p>HTML | CSS | Ruby | Ruby on Rails | JavaScript | React.js | JQuery | AJAX</p>
             <div className="social-links">
               {/* LinkedIn */}
               <a href="https://www.linkedin.com/in/coralinaquezada/" target="_blank" rel="noopener noreferrer" >

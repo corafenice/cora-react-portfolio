@@ -33,21 +33,21 @@ export class Contact extends Component {
             <div className='contact-list'>
             <List>
               <ListItem>
-                <ListItemContent style={{fontSize:'20px', fontFamily:'Anton'}}>
+                <ListItemContent>
                    <i className='fa fa-phone-square' aria-hidden='true'/>
                    (732)-925-3791
                 </ListItemContent>
               </ListItem>
 
               <ListItem>
-                <ListItemContent style={{fontSize:'20px', fontFamily:'Anton'}}>
+                <ListItemContent>
                    <i onClick={this.msgClick.bind(this)} className='fa fa-envelope' aria-hidden='true' />
                    corafenice1013@gmail.com
                 </ListItemContent>
               </ListItem>
 
               <ListItem>
-                <ListItemContent style={{fontSize:'20px', fontFamily:'Anton'}}>
+                <ListItemContent>
                    <i className='fa fa-whatsapp' aria-hidden='true'/>
                    (732)-925-3791
                 </ListItemContent>
@@ -78,21 +78,21 @@ export class Contact extends Component {
             <div className='contact-list'>
             <List>
               <ListItem>
-                <ListItemContent style={{fontSize:'20px', fontFamily:'Anton'}}>
+                <ListItemContent>
                    <i className='fa fa-phone-square' aria-hidden='true'/>
                    (732)-925-3791
                 </ListItemContent>
               </ListItem>
 
               <ListItem>
-                <ListItemContent style={{fontSize:'20px', fontFamily:'Anton'}}>
+                <ListItemContent>
                    <i onClick={this.msgClick.bind(this)} className='fa fa-envelope' aria-hidden='true' />
                    corafenice1013@gmail.com
                 </ListItemContent>
               </ListItem>
 
               <ListItem>
-                <ListItemContent style={{fontSize:'20px', fontFamily:'Anton'}}>
+                <ListItemContent>
                    <i className='fa fa-whatsapp' aria-hidden='true'/>
                    (732)-925-3791
                 </ListItemContent>
