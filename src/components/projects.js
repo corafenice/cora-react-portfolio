@@ -23,11 +23,10 @@ class Project extends Component {
             <CardActions border>
               <Button>
                 <a href="https://github.com/AnansiRafa/dash"  target="_blank" rel="noopener noreferrer">
-                <i className="fa fa-github-square" aria-hidden="true" /></a>
+                <i className="fa fa-github-square" aria-hidden="true" />GitHub</a>
               </Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
-              <IconButton name='share'/>
             </CardMenu>
           </Card>
           {/*Ruby Project #2 API/Book*/}
@@ -39,12 +38,11 @@ class Project extends Component {
             <CardActions border>
               <Button>
                 <a href="https://github.com/corafenice/API-Book"  target="_blank" rel="noopener noreferrer">
-                <i className="fa fa-github-square" aria-hidden="true" /></a>
+                <i className="fa fa-github-square" aria-hidden="true" />GitHub</a>
               </Button>
 
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
-              <IconButton name='share'/>
             </CardMenu>
           </Card>
           {/*Ruby Project #3 Photogur */}
@@ -57,7 +55,7 @@ class Project extends Component {
             <CardActions border>
               <Button>
                 <a href="https://github.com/corafenice/Photogur-CSD"  target="_blank" rel="noopener noreferrer">
-                <i className="fa fa-github-square" aria-hidden="true" /></a>
+                <i className="fa fa-github-square" aria-hidden="true" />GitHub</a>
               </Button>
 
             </CardActions>
@@ -80,7 +78,7 @@ class Project extends Component {
 
               <Button>
                 <a href="https://github.com/corafenice/cora-react-portfolio"  target="_blank" rel="noopener noreferrer">
-                <i className="fa fa-github-square" aria-hidden="true" /></a>
+                <i className="fa fa-github-square" aria-hidden="true" />GitHub</a>
               </Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -95,32 +93,20 @@ class Project extends Component {
         <div className="project-grid">
           {/*Project #1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background:'url() center /cover'}} >React Project #1</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background:'url(images/todolist.jpeg) center /cover'}} >To Do List</CardTitle>
             <CardText>
-              What ever I want to describe project
+              To Do List Application in Angular 5 using Firebase.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>Demo</Button>
+              <Button>
+                <a href="https://github.com/corafenice/angular_todo"  target="_blank" rel="noopener noreferrer">
+                <i className="fa fa-github-square" aria-hidden="true" />GitHub</a>
+              </Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
-              <IconButton name='share'/>
             </CardMenu>
           </Card>
-          {/*Project #2 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background:'url() center /cover'}} >React Project #2</CardTitle>
-            <CardText>
-              What ever I want to describe project
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>Demo</Button>
-            </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name='share'/>
-            </CardMenu>
-          </Card>
+
         </div>
       )
       // } else if(this.state.activeTab === 3) {
@@ -151,7 +137,7 @@ class Project extends Component {
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState( { activeTab: tabId})} ripple>
           <Tab>Ruby</Tab>
           <Tab>React</Tab>
-          <Tab>JavaScript</Tab>
+          <Tab>Angular</Tab>
         </Tabs>
 
 

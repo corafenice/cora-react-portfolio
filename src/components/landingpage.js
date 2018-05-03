@@ -15,7 +15,7 @@ class Landing extends Component {
 
 
 
-            <p>HTML | CSS | Ruby | Ruby on Rails | JavaScript | React.js | JQuery | AJAX</p>
+            <p>HTML | CSS | Ruby | Ruby on Rails | JavaScript | React.js | Angular | jQuery</p>
             <div className="social-links">
               {/* LinkedIn */}
               <a href="https://www.linkedin.com/in/coralinaquezada/" target="_blank" rel="noopener noreferrer" >
