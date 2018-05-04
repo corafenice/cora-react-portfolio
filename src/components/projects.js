@@ -85,6 +85,25 @@ class Project extends Component {
               <IconButton name='share'/>
             </CardMenu>
           </Card>
+          {/*Project #2 */}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background:'url(images/weather.png) center /cover'}} >Weather App</CardTitle>
+            <CardText>
+              Created a
+            </CardText>
+            <CardActions border>
+
+              <Button>
+                <a href="https://github.com/corafenice/react-weather"  target="_blank" rel="noopener noreferrer">
+                <i className="fa fa-github-square" aria-hidden="true" />GitHub</a>
+              </Button>
+              <Button><a href="https://still-citadel-94866.herokuapp.com/"  target="_blank" rel="noopener noreferrer">Heroku</a>
+            </Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name='share'/>
+            </CardMenu>
+          </Card>
 
         </div>
       )

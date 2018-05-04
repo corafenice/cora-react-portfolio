@@ -8,7 +8,7 @@ class AboutMe extends Component {
       <div className='aboutme'>
         <Card shadow={0} style={{width: '512px', margin: 'auto'}}>
           <CardTitle style={{color: '#fff', height: '176px'}}>
-          <a><img src="images/aboutme.png" alt='profileme' style={{width: '512px', margin: 'auto'}} /></a>
+          <a><img src="images/aboutme.png" alt='profileme' style={{width: '100%', margin: 'auto'}} /></a>
           About
         </CardTitle>
           <CardText>

@@ -129,12 +129,14 @@ font-size: 6vw;
 /* About Me Page CSS */
 .aboutme  {
   padding:2em;
+  display: flex;
 
 }
 
 .mdl-layout__content { background-image: url("https://images.pexels.com/photos/934062/pexels-photo-934062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350");
 background-size: 100%;
 background-size: cover;
+
 }
 /* About Me Page CSS */
 
@@ -170,6 +172,7 @@ background-size: cover;
   padding-left: 100px;
   padding-right: 100px;
   font-size: 20px;
+  display: table-footer-group;
 }
 .pic-bio img {
   border-radius: 20px;

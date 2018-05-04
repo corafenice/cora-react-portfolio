@@ -17,7 +17,7 @@ class Resume extends Component {
               </div>
               <div className='pic-bio'>
                 <h2 style={{paddingTop: ''}}>Coralina Quezada</h2>
-                <h4 style={{color:'grey'}}>Web Developer</h4>
+                <h4 style={{color:'grey'}}>Web Application Designer & Developer</h4>
                 <p style={{borderTop:'3px solid #833fb2'}}>
                   Professional with over 9 years of successful banking experience and proven track record of identifying and implementing strategies to maximize business development and increase company profits. Seeking a competitive and challenging environment where previous management experience will be utilized to develop innovative technical solutions as a web developer. </p>
                   <hr style={{borderTop: '3px solid #833fb2'}}/>
