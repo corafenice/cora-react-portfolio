@@ -30,14 +30,7 @@ class App extends Component {
         <div className="page-content" />
         <Main></Main>
       </Content>
-      <Footer size="mini">
-        <FooterSection type="left" logo="Title">
-          <FooterLinkList>
-            <a href="#">Help</a>
-            <a href="#">Privacy & Terms</a>
-          </FooterLinkList>
-        </FooterSection>
-      </Footer>
+    
     </Layout>
 
 
