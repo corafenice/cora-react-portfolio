@@ -2,7 +2,7 @@
 }
 
 .landing-background {
-  background-image: url('https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350');
+  background-image: url('/images/macbook.jpeg');
   text-align: center;
   background-size: 100% ;
   position: fixed;
@@ -133,7 +133,7 @@ font-size: 6vw;
 
 }
 
-.mdl-layout__content { background-image: url("https://images.pexels.com/photos/934062/pexels-photo-934062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350");
+.mdl-layout__content { background-image: url("/images/create.jpeg");
 background-size: 100%;
 background-size: cover;
 
